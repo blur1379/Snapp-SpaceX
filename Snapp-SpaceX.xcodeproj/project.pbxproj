@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9047B802A8AAEEA00C1B19A /* RocketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9047B7F2A8AAEEA00C1B19A /* RocketViewModel.swift */; };
+		A9047B812A8AAEEA00C1B19A /* RocketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9047B7F2A8AAEEA00C1B19A /* RocketViewModel.swift */; };
+		A9047B872A8BA38000C1B19A /* Int+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9047B862A8BA38000C1B19A /* Int+Extention.swift */; };
+		A9047B882A8BA38000C1B19A /* Int+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9047B862A8BA38000C1B19A /* Int+Extention.swift */; };
+		A9047B902A8BFBC800C1B19A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A9047B8F2A8BFBC800C1B19A /* Lottie */; };
+		A9047B932A8BFC5600C1B19A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9047B922A8BFC5600C1B19A /* LottieView.swift */; };
+		A9047B942A8BFC5600C1B19A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9047B922A8BFC5600C1B19A /* LottieView.swift */; };
+		A9047B962A8BFD4A00C1B19A /* animation_llcmhd2t.json in Resources */ = {isa = PBXBuildFile; fileRef = A9047B952A8BFD4A00C1B19A /* animation_llcmhd2t.json */; };
+		A9047B972A8BFD4A00C1B19A /* animation_llcmhd2t.json in Resources */ = {isa = PBXBuildFile; fileRef = A9047B952A8BFD4A00C1B19A /* animation_llcmhd2t.json */; };
+		A9047B992A8C2D6600C1B19A /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9047B982A8C2D6600C1B19A /* AppStorage.swift */; };
+		A9047B9A2A8C2D6600C1B19A /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9047B982A8C2D6600C1B19A /* AppStorage.swift */; };
+		A939DF012A83B34700D853E3 /* Snapp_SpaceXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF002A83B34700D853E3 /* Snapp_SpaceXApp.swift */; };
+		A939DF032A83B34700D853E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF022A83B34700D853E3 /* HomeView.swift */; };
+		A939DF052A83B34800D853E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A939DF042A83B34800D853E3 /* Assets.xcassets */; };
+		A939DF092A83B34800D853E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A939DF082A83B34800D853E3 /* Preview Assets.xcassets */; };
+		A939DF132A83B34800D853E3 /* Snapp_SpaceXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF122A83B34800D853E3 /* Snapp_SpaceXTests.swift */; };
+		A939DF2E2A84E80700D853E3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF2D2A84E80700D853E3 /* Network.swift */; };
+		A939DF2F2A84E80700D853E3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF2D2A84E80700D853E3 /* Network.swift */; };
+		A939DF332A84E97F00D853E3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF322A84E97F00D853E3 /* NetworkError.swift */; };
+		A939DF342A84E97F00D853E3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF322A84E97F00D853E3 /* NetworkError.swift */; };
+		A939DF362A84F0B700D853E3 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF352A84F0B700D853E3 /* CacheManager.swift */; };
+		A939DF372A84F0B700D853E3 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF352A84F0B700D853E3 /* CacheManager.swift */; };
+		A939DF3C2A8501EB00D853E3 /* RocketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF3B2A8501EB00D853E3 /* RocketListView.swift */; };
+		A939DF3D2A8501EB00D853E3 /* RocketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF3B2A8501EB00D853E3 /* RocketListView.swift */; };
+		A939DF3F2A85020700D853E3 /* RocketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF3E2A85020700D853E3 /* RocketDetailView.swift */; };
+		A939DF402A85020700D853E3 /* RocketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF3E2A85020700D853E3 /* RocketDetailView.swift */; };
+		A939DF422A8506F800D853E3 /* RocketItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF412A8506F800D853E3 /* RocketItemView.swift */; };
+		A939DF432A8506F800D853E3 /* RocketItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF412A8506F800D853E3 /* RocketItemView.swift */; };
+		A939DF452A88C92100D853E3 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF442A88C92100D853E3 /* APIRequest.swift */; };
+		A939DF472A88C9D900D853E3 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF462A88C9D900D853E3 /* APIs.swift */; };
+		A939DF492A88CAD500D853E3 /* APIMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939DF482A88CAD500D853E3 /* APIMethods.swift */; };
+		A9BD80A92A893B020048D5EA /* GetRocketFromServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD80A82A893B020048D5EA /* GetRocketFromServerRequest.swift */; };
+		A9BD80AA2A893B020048D5EA /* GetRocketFromServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD80A82A893B020048D5EA /* GetRocketFromServerRequest.swift */; };
+		A9BD80AC2A8942380048D5EA /* GetRocketFromServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD80AB2A8942380048D5EA /* GetRocketFromServerResponse.swift */; };
+		A9BD80AD2A8942380048D5EA /* GetRocketFromServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD80AB2A8942380048D5EA /* GetRocketFromServerResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A939DF0F2A83B34800D853E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A939DEF52A83B34700D853E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A939DEFC2A83B34700D853E3;
+			remoteInfo = "Snapp-SpaceX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9047B7F2A8AAEEA00C1B19A /* RocketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketViewModel.swift; sourceTree = "<group>"; };
+		A9047B862A8BA38000C1B19A /* Int+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extention.swift"; sourceTree = "<group>"; };
+		A9047B8D2A8BFAF000C1B19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A9047B922A8BFC5600C1B19A /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		A9047B952A8BFD4A00C1B19A /* animation_llcmhd2t.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_llcmhd2t.json; sourceTree = "<group>"; };
+		A9047B982A8C2D6600C1B19A /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		A939DEFD2A83B34700D853E3 /* Snapp-SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapp-SpaceX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A939DF002A83B34700D853E3 /* Snapp_SpaceXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapp_SpaceXApp.swift; sourceTree = "<group>"; };
+		A939DF022A83B34700D853E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A939DF042A83B34800D853E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A939DF062A83B34800D853E3 /* Snapp_SpaceX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snapp_SpaceX.entitlements; sourceTree = "<group>"; };
+		A939DF082A83B34800D853E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A939DF0E2A83B34800D853E3 /* Snapp-SpaceXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snapp-SpaceXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A939DF122A83B34800D853E3 /* Snapp_SpaceXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapp_SpaceXTests.swift; sourceTree = "<group>"; };
+		A939DF2D2A84E80700D853E3 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A939DF322A84E97F00D853E3 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		A939DF352A84F0B700D853E3 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		A939DF3B2A8501EB00D853E3 /* RocketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketListView.swift; sourceTree = "<group>"; };
+		A939DF3E2A85020700D853E3 /* RocketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDetailView.swift; sourceTree = "<group>"; };
+		A939DF412A8506F800D853E3 /* RocketItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketItemView.swift; sourceTree = "<group>"; };
+		A939DF442A88C92100D853E3 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		A939DF462A88C9D900D853E3 /* APIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		A939DF482A88CAD500D853E3 /* APIMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMethods.swift; sourceTree = "<group>"; };
+		A9BD80A82A893B020048D5EA /* GetRocketFromServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRocketFromServerRequest.swift; sourceTree = "<group>"; };
+		A9BD80AB2A8942380048D5EA /* GetRocketFromServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRocketFromServerResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A939DEFA2A83B34700D853E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9047B902A8BFBC800C1B19A /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A939DF0B2A83B34800D853E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9047B852A8BA36900C1B19A /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				A9047B862A8BA38000C1B19A /* Int+Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		A9047B912A8BFC3C00C1B19A /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				A9047B922A8BFC5600C1B19A /* LottieView.swift */,
+				A9047B952A8BFD4A00C1B19A /* animation_llcmhd2t.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		A939DEF42A83B34700D853E3 = {
+			isa = PBXGroup;
+			children = (
+				A939DEFF2A83B34700D853E3 /* Snapp-SpaceX */,
+				A939DF112A83B34800D853E3 /* Snapp-SpaceXTests */,
+				A939DEFE2A83B34700D853E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A939DEFE2A83B34700D853E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A939DEFD2A83B34700D853E3 /* Snapp-SpaceX.app */,
+				A939DF0E2A83B34800D853E3 /* Snapp-SpaceXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A939DEFF2A83B34700D853E3 /* Snapp-SpaceX */ = {
+			isa = PBXGroup;
+			children = (
+				A939DF3A2A85014600D853E3 /* ViewModel */,
+				A939DF392A85013A00D853E3 /* Model */,
+				A939DF382A85012A00D853E3 /* View */,
+				A939DF2C2A84E7D300D853E3 /* Servises */,
+				A9047B852A8BA36900C1B19A /* Extention */,
+				A9047B912A8BFC3C00C1B19A /* Lottie */,
+				A939DF002A83B34700D853E3 /* Snapp_SpaceXApp.swift */,
+				A9047B8D2A8BFAF000C1B19A /* Info.plist */,
+				A939DF042A83B34800D853E3 /* Assets.xcassets */,
+				A939DF062A83B34800D853E3 /* Snapp_SpaceX.entitlements */,
+				A939DF072A83B34800D853E3 /* Preview Content */,
+			);
+			path = "Snapp-SpaceX";
+			sourceTree = "<group>";
+		};
+		A939DF072A83B34800D853E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A939DF082A83B34800D853E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A939DF112A83B34800D853E3 /* Snapp-SpaceXTests */ = {
+			isa = PBXGroup;
+			children = (
+				A939DF122A83B34800D853E3 /* Snapp_SpaceXTests.swift */,
+			);
+			path = "Snapp-SpaceXTests";
+			sourceTree = "<group>";
+		};
+		A939DF2C2A84E7D300D853E3 /* Servises */ = {
+			isa = PBXGroup;
+			children = (
+				A939DF2D2A84E80700D853E3 /* Network.swift */,
+				A939DF322A84E97F00D853E3 /* NetworkError.swift */,
+				A939DF352A84F0B700D853E3 /* CacheManager.swift */,
+				A939DF442A88C92100D853E3 /* APIRequest.swift */,
+				A939DF462A88C9D900D853E3 /* APIs.swift */,
+				A939DF482A88CAD500D853E3 /* APIMethods.swift */,
+				A9047B982A8C2D6600C1B19A /* AppStorage.swift */,
+			);
+			path = Servises;
+			sourceTree = "<group>";
+		};
+		A939DF382A85012A00D853E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A939DF3B2A8501EB00D853E3 /* RocketListView.swift */,
+				A939DF3E2A85020700D853E3 /* RocketDetailView.swift */,
+				A939DF412A8506F800D853E3 /* RocketItemView.swift */,
+				A939DF022A83B34700D853E3 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A939DF392A85013A00D853E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9BD80A82A893B020048D5EA /* GetRocketFromServerRequest.swift */,
+				A9BD80AB2A8942380048D5EA /* GetRocketFromServerResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A939DF3A2A85014600D853E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A9047B7F2A8AAEEA00C1B19A /* RocketViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A939DEFC2A83B34700D853E3 /* Snapp-SpaceX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A939DF222A83B34800D853E3 /* Build configuration list for PBXNativeTarget "Snapp-SpaceX" */;
+			buildPhases = (
+				A939DEF92A83B34700D853E3 /* Sources */,
+				A939DEFA2A83B34700D853E3 /* Frameworks */,
+				A939DEFB2A83B34700D853E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snapp-SpaceX";
+			packageProductDependencies = (
+				A9047B8F2A8BFBC800C1B19A /* Lottie */,
+			);
+			productName = "Snapp-SpaceX";
+			productReference = A939DEFD2A83B34700D853E3 /* Snapp-SpaceX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A939DF0D2A83B34800D853E3 /* Snapp-SpaceXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A939DF252A83B34800D853E3 /* Build configuration list for PBXNativeTarget "Snapp-SpaceXTests" */;
+			buildPhases = (
+				A939DF0A2A83B34800D853E3 /* Sources */,
+				A939DF0B2A83B34800D853E3 /* Frameworks */,
+				A939DF0C2A83B34800D853E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A939DF102A83B34800D853E3 /* PBXTargetDependency */,
+			);
+			name = "Snapp-SpaceXTests";
+			productName = "Snapp-SpaceXTests";
+			productReference = A939DF0E2A83B34800D853E3 /* Snapp-SpaceXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A939DEF52A83B34700D853E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A939DEFC2A83B34700D853E3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A939DF0D2A83B34800D853E3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A939DEFC2A83B34700D853E3;
+					};
+				};
+			};
+			buildConfigurationList = A939DEF82A83B34700D853E3 /* Build configuration list for PBXProject "Snapp-SpaceX" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A939DEF42A83B34700D853E3;
+			packageReferences = (
+				A9047B8E2A8BFBC800C1B19A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = A939DEFE2A83B34700D853E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A939DEFC2A83B34700D853E3 /* Snapp-SpaceX */,
+				A939DF0D2A83B34800D853E3 /* Snapp-SpaceXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A939DEFB2A83B34700D853E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A939DF092A83B34800D853E3 /* Preview Assets.xcassets in Resources */,
+				A9047B962A8BFD4A00C1B19A /* animation_llcmhd2t.json in Resources */,
+				A939DF052A83B34800D853E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A939DF0C2A83B34800D853E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9047B972A8BFD4A00C1B19A /* animation_llcmhd2t.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A939DEF92A83B34700D853E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9047B992A8C2D6600C1B19A /* AppStorage.swift in Sources */,
+				A939DF362A84F0B700D853E3 /* CacheManager.swift in Sources */,
+				A9047B872A8BA38000C1B19A /* Int+Extention.swift in Sources */,
+				A939DF422A8506F800D853E3 /* RocketItemView.swift in Sources */,
+				A9BD80A92A893B020048D5EA /* GetRocketFromServerRequest.swift in Sources */,
+				A939DF032A83B34700D853E3 /* HomeView.swift in Sources */,
+				A9047B802A8AAEEA00C1B19A /* RocketViewModel.swift in Sources */,
+				A939DF492A88CAD500D853E3 /* APIMethods.swift in Sources */,
+				A9047B932A8BFC5600C1B19A /* LottieView.swift in Sources */,
+				A939DF332A84E97F00D853E3 /* NetworkError.swift in Sources */,
+				A939DF012A83B34700D853E3 /* Snapp_SpaceXApp.swift in Sources */,
+				A939DF3C2A8501EB00D853E3 /* RocketListView.swift in Sources */,
+				A9BD80AC2A8942380048D5EA /* GetRocketFromServerResponse.swift in Sources */,
+				A939DF3F2A85020700D853E3 /* RocketDetailView.swift in Sources */,
+				A939DF452A88C92100D853E3 /* APIRequest.swift in Sources */,
+				A939DF472A88C9D900D853E3 /* APIs.swift in Sources */,
+				A939DF2E2A84E80700D853E3 /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A939DF0A2A83B34800D853E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9047B882A8BA38000C1B19A /* Int+Extention.swift in Sources */,
+				A9047B812A8AAEEA00C1B19A /* RocketViewModel.swift in Sources */,
+				A939DF3D2A8501EB00D853E3 /* RocketListView.swift in Sources */,
+				A939DF402A85020700D853E3 /* RocketDetailView.swift in Sources */,
+				A9047B9A2A8C2D6600C1B19A /* AppStorage.swift in Sources */,
+				A939DF432A8506F800D853E3 /* RocketItemView.swift in Sources */,
+				A939DF342A84E97F00D853E3 /* NetworkError.swift in Sources */,
+				A939DF2F2A84E80700D853E3 /* Network.swift in Sources */,
+				A939DF372A84F0B700D853E3 /* CacheManager.swift in Sources */,
+				A9BD80AD2A8942380048D5EA /* GetRocketFromServerResponse.swift in Sources */,
+				A9BD80AA2A893B020048D5EA /* GetRocketFromServerRequest.swift in Sources */,
+				A939DF132A83B34800D853E3 /* Snapp_SpaceXTests.swift in Sources */,
+				A9047B942A8BFC5600C1B19A /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A939DF102A83B34800D853E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A939DEFC2A83B34700D853E3 /* Snapp-SpaceX */;
+			targetProxy = A939DF0F2A83B34800D853E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A939DF202A83B34800D853E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A939DF212A83B34800D853E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A939DF232A83B34800D853E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Snapp-SpaceX/Snapp_SpaceX.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snapp-SpaceX/Preview Content\"";
+				DEVELOPMENT_TEAM = B3YXFTQFW9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snapp-SpaceX/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Snapp X";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blur.Snapp-SpaceX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A939DF242A83B34800D853E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Snapp-SpaceX/Snapp_SpaceX.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snapp-SpaceX/Preview Content\"";
+				DEVELOPMENT_TEAM = B3YXFTQFW9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snapp-SpaceX/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Snapp X";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blur.Snapp-SpaceX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A939DF262A83B34800D853E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3YXFTQFW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blur.Snapp-SpaceXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapp-SpaceX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snapp-SpaceX";
+			};
+			name = Debug;
+		};
+		A939DF272A83B34800D853E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3YXFTQFW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blur.Snapp-SpaceXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapp-SpaceX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snapp-SpaceX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A939DEF82A83B34700D853E3 /* Build configuration list for PBXProject "Snapp-SpaceX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A939DF202A83B34800D853E3 /* Debug */,
+				A939DF212A83B34800D853E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A939DF222A83B34800D853E3 /* Build configuration list for PBXNativeTarget "Snapp-SpaceX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A939DF232A83B34800D853E3 /* Debug */,
+				A939DF242A83B34800D853E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A939DF252A83B34800D853E3 /* Build configuration list for PBXNativeTarget "Snapp-SpaceXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A939DF262A83B34800D853E3 /* Debug */,
+				A939DF272A83B34800D853E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9047B8E2A8BFBC800C1B19A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9047B8F2A8BFBC800C1B19A /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9047B8E2A8BFBC800C1B19A /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A939DEF52A83B34700D853E3 /* Project object */;
+}
