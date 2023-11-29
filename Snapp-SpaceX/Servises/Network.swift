@@ -49,11 +49,11 @@ class Network {
     }
     
     func downloadAndCacheImage(from urlStr : String) async throws -> UIImage{
-        if let cacheImage = CacheManager.shared.get(name: urlStr){
+        if let cacheImage = await CacheManager.shared.get(name: urlStr){
             return cacheImage
         }
         let image = try await downloadImage(from: urlStr)
-        CacheManager.shared.add(image: image, name: urlStr)
+        await CacheManager.shared.add(image: image, name: urlStr)
         return image
     }
     
